@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Heeboy, sans-serif;
+}
+@font-face {
+  font-family: Heeboy;
+  src: url("./fonts/Heebo/Heebo-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Rubik;
+  src: url("./fonts/Heebo/Heebo-VariableFont_wght.ttf");
+}
+.font__rubik {
+  font-family: "Rubik";
+}
+body {
+  background: #eaeaea;
+}
+nav {
+  position: relative;
+  bottom: 10px;
+  background-color: white;
+  height: 10.4vh;
+  margin-bottom: 6.4vh;
+}
+/* Navbar Css starts */
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  margin-top: 7px;
+  position: relative;
+}
+.menu {
+  display: flex;
+  list-style-type: none;
+  margin-left: 279px;
+  position: relative;
+  bottom: 39px;
+}
+.menu li {
+  margin: 0 1.5rem 0 0;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 0.775rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222;
+}
+.menu a:hover {
+  color: #43d3e5;
+}
+/* Navbar CSS ends */
+/* Main CSS starts */
+.btn__back {
+  font-weight: 600;
+  border: #eaeaea;
+  padding: 13px 70px;
+  gap: 10px;
+  width: 202px;
+  height: 45px;
+  margin-left: 90px;
+  background: #edf7f8;
+  border-radius: 12px;
+  margin-bottom: 30.69px;
+}
+.btn__back:hover {
+  background-color: #cdf7f8;
+}
+img[alt="back"] {
+  position: relative;
+  left: 170px;
+}
+.product__photo {
+  margin: 0 3.6rem 0 6.875rem;
+}
+.first__text {
+  width: 552px;
+  height: 49px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 130%;
+  color: #000000;
+  margin-bottom: 1.438rem;
+}
+.second__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #576b70;
+  margin-bottom: 19px;
+}
+.product__section {
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.info {
+    width: 32.5rem;
+    height: 13.75rem;
+    background-color: white;
+    border-radius: 18px;
+    margin-bottom: 2rem;
+}
+.details{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.details li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.firstPart {
+    color: #4D5F61;
+    margin-left: 30px;
+}
+.secondPart {
+    margin-right: 54px;
+}
+.thirtypx {
+    margin-top: 30px;
+}
+.line {
+    margin-top: 30px;
+}
+.line li{
+    color: #DBE1E1;
+    margin-bottom: 14px;
+}
+.viewMore {
+  width: 19.2rem;
+  height: 2.375rem;
+  background: #03abbc;
+  border-radius: 8px;
+  border: white;
+  color: white;
+}
+.viewMore:hover {
+  color: white;
+  background-color: #43d3e5;
+}
+
+.realProducts {
+  margin:0 1.25rem 200px 0;
+  width: 386px;
+  height: 449px;
+  background: #ffffff;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.04);
+  border-radius: 12px;
+}
+.realProductsOne {
+    margin-left: 6.875rem;
+}
+.realProducts img {
+  margin-top: 5.35%;
+  margin-left: 5.22%;
+  border: 1px solid #dbe1e1;
+  border-radius: 12px;
+}
+.realproduct__text {
+  width: 301px;
+  margin: 24px 0 12px 24px;
+}
+.similar__pro {
+    font-weight: bold;
+    font-size: 36px;
+    margin:0 0 30px 6.875rem;
+}
+.same__thing {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* Main CSS ends */
+/* footer CSS starts */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 14.56vh;
+  background-color: #19bbd3;
+}
+.arrec {
+  margin-top: 6.4vh;
+  margin-left: 40vw;
+  color: white;
+}
+.medias {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 332px;
+  height: 14px;
+  margin-top: 6.4vh;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+.whiteCircle {
+  margin-left: 12px;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+.whiteCircle img {
+  margin-top: 4.5px;
+}
+/* footer CSS ends */
