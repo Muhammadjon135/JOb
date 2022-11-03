@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Heeboy, sans-serif;
+      }
+      @font-face {
+        font-family: Heeboy;
+        src: url("./fonts/Heebo/Heebo-VariableFont_wght.ttf");
+      }
+      @font-face {
+        font-family: Rubik;
+        src: url("./fonts/Heebo/Heebo-VariableFont_wght.ttf");
+      }
+      .font__rubik {
+        font-family: "Rubik";
+      }
+      body {
+        background: #eaeaea;
+      }
+      nav {
+        position: relative;
+        bottom: 10px;
+        background-color: white;
+        height: 10.4vh;
+        margin-bottom: 6.4vh;
+      }
+      /* Navbar Css starts */
+
+      .logo {
+        display: flex;
+        align-items: center;
+        margin-left: 120px;
+        margin-top: 7px;
+        position: relative;
+      }
+      .menu {
+        display: flex;
+        list-style-type: none;
+        margin-left: 279px;
+        position: relative;
+        bottom: 39px;
+      }
+      .menu li {
+        margin: 0 1.5rem 0 0;
+      }
+
+      .menu a {
+        text-decoration: none;
+        font-size: 0.775rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 150%;
+        text-transform: uppercase;
+        color: #222;
+      }
+      .menu a:hover {
+        color: #43d3e5;
+      }
+      /* Navbar CSS ends */
+      /* Main css starts */
+      .media {
+        margin: 0 0 2rem 7.5rem;
+        color: #000000;
+        font-weight: 550;
+        font-size: 42px;
+        line-height: 130%;
+      }
+      .media__photos {
+        width: 1220px;
+        margin-left: 7.5rem;
+        display: flex;
+        flex-wrap: nowrap;
+      }
+      .textInPhoto {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+      }
+      .first__text,
+      .third__text {
+        margin-left: 144px;
+        position: absolute;
+        bottom: 40px;
+      }
+      .third__text {
+        position: absolute;
+        top: 1050px;
+      }
+      .second__text,
+      .fourth__text {
+        margin-left: 754px;
+        position: absolute;
+        bottom: 35px;
+      }
+      .second__text {
+        position: relative;
+        bottom: 115px;
+      }
+      /* Main css ends */
+      /* footer CSS starts */
+      footer {
+        display: flex;
+        justify-content: space-between;
+        height: 14.56vh;
+        background-color: #19bbd3;
+      }
+      .arrec {
+        margin-top: 6.4vh;
+        margin-left: 40vw;
+        color: white;
+      }
+      .medias {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 332px;
+        height: 14px;
+        margin-top: 6.4vh;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+      }
+      .whiteCircle {
+        margin-left: 12px;
+        background-color: white;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+      }
+      .whiteCircle img {
+        margin-top: 4.5px;
+      }
+      /* footer CSS ends */
+    </style>
+  </head>
+  <body>
+    <!-- Navbar html starts -->
+    <nav>
+      <div class="logo">
+        <a href="./job.html">
+          <img src="./assets/image 1.svg" alt="Logo" />
+        </a>
+      </div>
+      <ul class="menu">
+        <li><a href="./job.html">About us</a></li>
+        <li><a href="./products.html">Products</a></li>
+        <li><a href="./media.html">Media</a></li>
+        <li><a href="./contact_us.html">Contact us</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar html ends -->
+    <!-- Media html starts -->
+    <main>
+      <div class="media">
+        <p>Media</p>
+      </div>
+      <div class="media__photos">
+        <div>
+          <img src="./assets/mediaPhoto1.svg" alt="photo__one" />
+          <img src="./assets/mediaPhoto3.svg" alt="photo__three" />
+        </div>
+        <div>
+          <img src="./assets/mediaPhoto2.svg" alt="photo__two" />
+          <img src="./assets/mediaPhoto4.svg" alt="photo__four" />
+        </div>
+      </div>
+      <section class="textInPhoto">
+        <div class="first__text">
+          <h3 style="color: white; margin-bottom: 9px">Media</h3>
+          <p style="width: 400px; color: white">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+        </div>
+        <div class="second__text">
+          <h3 style="color: white; margin-bottom: 9px">Media</h3>
+          <p style="width: 400px; color: white">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry
+          </p>
+        </div>
+      </section>
+
+      <div class="third__text">
+        <h3 style="color: white; margin-bottom: 9px">Media</h3>
+        <p style="width: 400px; color: white">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry
+        </p>
+      </div>
+      <div class="fourth__text">
+        <h3 style="color: white; margin-bottom: 9px">Media</h3>
+        <p style="width: 400px; color: white">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry
+        </p>
+      </div>
+    </main>
+    <!-- Media html ends -->
+    <!-- footer starts -->
+    <footer>
+      <div class="arrec">
+        <p>All right reserved enviro chemicals</p>
+      </div>
+      <div class="medias">
+        <p style="margin-right: 6px">Biz ijtimoiy tarmoqlarda</p>
+        <div class="whiteCircle">
+          <a href="#"
+            ><img src="./assets/facebook_logo.svg" alt="facebook_logo"
+          /></a>
+        </div>
+        <div class="whiteCircle">
+          <a href="#"
+            ><img src="./assets/instagram_logo.svg" alt="instagram__logo"
+          /></a>
+        </div>
+        <div class="whiteCircle">
+          <a href="#"
+            ><img src="./assets/tekegram_logo.svg" alt="tekegram_logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+  </body>
+</html>
