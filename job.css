@@ -100,17 +100,10 @@ img[alt="photo"] {
 
 .btn__products {
   color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 13px 73px;
   gap: 10px;
-
-  position: absolute;
   width: 211px;
   height: 50px;
-  left: 170px;
-  top: 474px;
+  margin: 86px 0 0 50px;
   border: white;
   background: #03abbc;
   border-radius: 8px;
@@ -261,7 +254,7 @@ img[alt="lamp__pic"] {
   flex-wrap: wrap-reverse;
   margin-top: 150px;
   width: 100vw;
-  height: 651px;
+  height: 40.688rem;
   background-color: #19bbd3;
 }
 .abts {
@@ -421,3 +414,78 @@ footer {
   margin-top: 4.5px;
 }
 /* footer CSS ends */
+
+@media screen and (min-width: 360px) and (max-width: 480px){    
+}
+@media screen and (min-width:481px) and (max-width:768px) {    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+  .medal,
+.lamp {
+  margin-left: 15%;
+  margin-bottom: 20px;
+}
+.medal {
+  margin-bottom: 20px;
+}
+.like,
+.dollar {
+  width: 600px;
+  margin: 0 0 20px 15%;
+}
+h2 {
+  margin-left: 330px;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+.services__section {
+  display: block;
+  /* margin-left: 9.375rem; */
+  margin-left: 10%;
+}
+.building__services,
+.tekstil__services,
+.building__materials {
+  margin-bottom: 20px;
+}
+.clients {
+  height: 20.188rem;
+  top: 3753px;
+}
+.clients img{
+  display: none;
+}
+.aboutUs {
+  display: flex;
+  height: 75.688rem;
+}
+.lorem {
+  width: 401px;
+  margin-left: 200px;
+}
+.abts {
+  text-align: center;
+  margin-left: 150px;
+}
+.divBusinessman {
+  margin: 40px 0 0 200px;
+}
+.worker {
+  padding-left:0;
+}
+.products {
+  left: 10.6rem;
+}
+.btn__products{
+  position: static;
+  margin:100px 0 0 50px;
+}
+
+
+}
+@media screen and (min-width:1025px) and (max-width:1280px) {    
+}
+@media screen and (min-width:1281px) and (max-width:1440px) {    
+}
+@media screen and (min-width:1440px) {    
+}

@@ -66,7 +66,7 @@ nav {
   line-height: 130%;
 }
 .details {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
   position: absolute;
   width: 597px;
   height: 488px;
@@ -155,10 +155,10 @@ nav {
   border-radius: 8px;
 }
 .input {
-    margin-top: 30px;
-    margin-left: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
-.submit {
+#submit {
   color: white;
   border: white;
   width: 419px;
@@ -166,63 +166,110 @@ nav {
   background: #03abbc;
   border-radius: 8px;
 }
-.submit:hover {
+#submit:hover {
   background-color: #19bbd3;
 }
 .register {
-    position: relative;
-    top: 50px;
+  position: relative;
+  top: 50px;
 }
 /* register section ends */
 /* Map section starts */
-.cover__map img{
-    margin-top: 50px;
-    width: 98.7vw;
+.cover__map img {
+  margin-top: 50px;
+  width: 98.7vw;
 }
 .metka {
-    position: relative;
-    top: 310px;
-    left:330px;
+  position: relative;
+  top: 310px;
+  left: 330px;
 }
 .enviro__logo {
-    position: relative;
-    bottom: 334px;
-    left: 270px;
+  position: relative;
+  bottom: 334px;
+  left: 270px;
 }
 /* Map section ends */
-/* Main CSS ends */
-/* footer CSS starts */
-      footer {
-        display: flex;
-        justify-content: space-between;
-        height: 14.56vh;
-        background-color: #19bbd3;
-      }
-      .arrec {
-        margin-top: 6.4vh;
-        margin-left: 40vw;
-        color: white;
-      }
-      .medias {
-        display: flex;
-        flex-wrap: nowrap;
-        width: 332px;
-        height: 14px;
-        margin-top: 6.4vh;
-        font-weight: 400;
-        font-size: 12px;
-        text-align: center;
-        color: #fff;
-      }
-      .whiteCircle {
-        margin-left: 12px;
-        background-color: white;
-        width: 24px;
-        height: 24px;
-        border-radius: 100%;
-      }
-      .whiteCircle img {
-        margin-top: 4.5px;
-      }
-      /* footer CSS ends */
+/* Succesfully sent starts */
 
+.succesfully__sent__part {
+  display: none;
+  position: absolute;
+  width: 421px;
+  height: 443px;
+  left: 510px;
+  top: 229px;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.04);
+  border-radius: 18px;
+}
+.greyCircle {
+  margin:50px 0 33px 136.5px;
+  width: 148px;
+  height: 148px;
+  background-color: #F8FBFC;
+  border-radius: 100%;
+}
+img[alt="headphones-photo"] {
+  margin:33.33px 0 16px 33.38px;
+}
+.succesfulText {
+  font-weight: bold;
+  margin-left: 90px;
+  font-size: 32px;
+}
+.operators {
+  margin:0 0 33px 90px;
+}
+.btn__okey {
+  margin-left: 74px;
+  width: 273px;
+  height: 2.375rem;
+  background: #03abbc;
+  border-radius: 8px;
+  border: white;
+  color: white;
+}
+.btn__okey:hover {
+  color: white;
+  background-color: #43d3e5;
+}
+
+/* Succesfully sent ends */
+/* Main CSS ends */
+
+/* footer CSS starts */
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 14.56vh;
+  background-color: #19bbd3;
+}
+.arrec {
+  margin-top: 6.4vh;
+  margin-left: 40vw;
+  color: white;
+}
+.medias {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 332px;
+  height: 14px;
+  margin-top: 6.4vh;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}
+.whiteCircle {
+  margin-left: 12px;
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+}
+.whiteCircle img {
+  margin-top: 4.5px;
+}
+/* footer CSS ends */

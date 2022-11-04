@@ -134,7 +134,7 @@ img[alt="back"] {
     color: #DBE1E1;
     margin-bottom: 14px;
 }
-.viewMore {
+.btn__orderNow {
   width: 19.2rem;
   height: 2.375rem;
   background: #03abbc;
@@ -142,7 +142,7 @@ img[alt="back"] {
   border: white;
   color: white;
 }
-.viewMore:hover {
+.btn__orderNow:hover {
   color: white;
   background-color: #43d3e5;
 }
